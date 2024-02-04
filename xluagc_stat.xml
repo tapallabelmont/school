@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+  <server>
+    <tcp host="xlinfopush.rcv.sandai.net" port="80"/>
+  </server>
+  <priority>
+    <level id="0" reporttime="0"/>
+    <level id="1" reporttime="0"/>
+    <level id="2" reporttime="1"/>
+    <level id="3" reporttime="-1"/>
+    <level id="4" reporttime="-2"/>
+  </priority>
+  <stat>
+    <event index="1001" key="longlink_xluagcinit" priority="1"/>
+	<event index="1002" key="longlink_httpdnsquerystart" priority="1"/>
+	<event index="1003" key="longlink_httpdnsqueryend" priority="1"/>
+	<event index="1004" key="longlink_heartbeat" priority="1"/>
+	<event index="1005" key="longlink_createlongconnectstart" priority="1"/>
+	<event index="1006" key="longlink_createlongconnectsuccess" priority="1"/>
+	<event index="1007" key="longlink_longconnecterror" priority="1"/>
+	<event index="1008" key="longlink_deviceloginstart" priority="1"/>
+	<event index="1009" key="longlink_deviceloginend" priority="1"/>
+	<event index="1010" key="longlink_userloginstart" priority="1"/>
+	<event index="1011" key="longlink_userloginend" priority="1"/>
+	<event index="1012" key="longlink_userlogoutstart" priority="1"/>
+	<event index="1013" key="longlink_userlogoutend" priority="1"/>
+	<event index="1014" key="longlink_reconnectcmdtype" priority="1"/>
+	<event index="1015" key="longlink_relongconnect" priority="1"/>
+	<event index="1016" key="longlink_recvmessage" priority="1"/>
+	<event index="1017" key="longlink_supportipv6" priority="1"/>
+	<event index="1018" key="longlink_recvmessage_count" priority="1"/>
+	<event index="1019" key="longlink_changegroup_start" priority="1"/>
+	<event index="1020" key="longlink_changegroup_end" priority="1"/>
+    <event index="1021" key="longlink_recvmessage_count2" priority="1"/>
+  </stat>
+</config>
